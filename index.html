@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" href="img/favicon.ico" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+
+<div class="loading">
+    <svg version="1.1" id="L6" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+             viewBox="0 0 100 100" enable-background="new 0 0 100 100" xml:space="preserve">
+           <rect fill="none" stroke="#000" stroke-width="4" x="25" y="25" width="50" height="50">
+               <animateTransform attributeName="transform" dur="0.5s" from="0 50 50" to="180 50 50" type="rotate" id="strokeBox" attributeType="XML" begin="rectBox.end"/>
+           </rect>
+            <rect x="27" y="27" fill="#000" width="46" height="50">
+                <animate attributeName="height" dur="1.3s" attributeType="XML" from="50" to="0" id="rectBox" fill="freeze" begin="0s;strokeBox.end"/>
+            </rect>
+    </svg>
+</div>
+
+<div class="mobile-burger">
+    <img src="img/menu.svg" alt="img">
+</div>
+
+<section class="header">
+    <header>
+        <nav>
+            <ul class="menu">
+                <li><a href="#3">contact</a></li>
+                <li><a href="#2">about</a></li>
+                <li><a href="#1">portfolio</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="wrapp">
+        <div class="col-md-left">
+            <img src="img/bg.png" alt="background"/>
+            <div class="scrll-down">
+                <p class="pulsate">
+                    <span class="white">scroll</span>
+                    <span class="black">down</span>
+                </p>
+            </div>
+        </div>
+        <div class="col-md-right">
+            <div class="header-title">
+                <h1 class="wow fadeIn"  data-wow-delay="0.3s">Madonna Harutyunyan</h1>
+                <h3 class="wow fadeIn"  data-wow-delay="0.5s">stylist / tv host</h3>
+
+                <ul class="wow fadeIn" data-wow-duration="1s">
+                    <li class="button-1">
+                        <div class="eff-1"></div>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                    </li>
+                    <li class="button-1">
+                        <div class="eff-1"></div>
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    </li>
+                    <li class="button-1">
+                        <div class="eff-1"></div>
+                        <a href="#"><i class="fab fa-google-plus-g"></i></a>
+                    </li>
+                    <li class="button-1">
+                        <div class="eff-1"></div>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    </li>
+                </ul>
+
+            </div>
+        </div>
+        <div class="clearfix"></div>
+    </div>
+</section>
+<div class="sections">
+    <section class="populyar" id="1">
+        <div class="populyar-wrapp content">
+            <div class="popul-list">
+                <div class="title wow fadeIn" data-wow-duration="1s">
+                    <h3>portfolio</h3>
+                    <span class="bor"></span>
+                </div>
+                <div class="rotate-text">
+                    <p>highlighted</p>
+                </div>
+                <div class="inline">
+                    <div class="populyar-block1">
+                        <img src="img/populyar2.png" alt="img" />
+                        <div class="block-title  wow fadeIn" data-wow-duration="1s">
+                            <button type="button" class="btn btn-primary tbtn" data-toggle="modal" data-target="#exampleModal">
+                                Diana Malenko
+                            </button>
+                            <p>styling/photoshoot</p>
+                            <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                <div class="modal-dialog" role="document">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                <span aria-hidden="true"><img src="img/cancel.svg" alt=""></span>
+                                            </button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <img src="img/populyar2.png" alt="img" />
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="inline">
+                    <div class="populyar-block2 ">
+                        <img src="img/populyar1.png" alt="img" />
+                        <div class="block-title  wow fadeIn" data-wow-duration="1s">
+                            <button type="button" class="btn btn-primary tbtn" data-toggle="modal" data-target="#exampleModal2">
+                                Emma Hakobyan
+                            </button>
+                            <p>styling/photoshoot</p>
+                            <div class="modal fade" id="exampleModal2" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel2" aria-hidden="true">
+                                <div class="modal-dialog" role="document">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                <span aria-hidden="true"><img src="img/cancel.svg" alt=""></span>
+                                            </button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <img src="img/populyar1.png" alt="img" />
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="clearfix"></div>
+            </div>
+        </div>
+    </section>
+    <section class="filterable">
+        <div class="content">
+            <div class="filter-category">
+                <button class="filter-button" data-filter="all">all</button>
+                <button class="filter-button" data-filter="styling">styling</button>
+                <button class="filter-button" data-filter="shopping">shopping</button>
+                <button class="filter-button" data-filter="commercial">commercial</button>
+                <button class="filter-button" data-filter="photoshoot">photoshoot</button>
+            </div>
+
+            <div class="filter-content">
+                <div class="item gallery_product filter styling">
+                    <a href="#gallery1" class="open-gallery-link">
+                        <img src="img/portfolio/1.png">
+                    </a>
+
+                    <div id="gallery1" class="mfp-hide">
+                        <div class="slide">
+                            <img src="img/portfolio/1.png">
+                        </div>
+                        <div class="slide">
+                            <img src="img/portfolio/2.png">
+                        </div>
+                    </div>
+                </div>
+                <div class="item gallery_product filter styling" >
+                    <a href="#gallery2" class="open-gallery-link">
+                        <img src="img/portfolio/2.png">
+                    </a>
+
+                    <div id="gallery2" class="mfp-hide">
+                        <div class="slide">
+                            <img src="img/portfolio/1.png">
+                        </div>
+                        <div class="slide">
+                            <img src="img/portfolio/2.png">
+                        </div>
+                    </div>
+                </div>
+                <div class="item gallery_product filter styling" >
+                    <a href="#gallery3" class="open-gallery-link">
+                        <img src="img/portfolio/3.png">
+                    </a>
+
+                    <div id="gallery3" class="mfp-hide">
+                        <div class="slide">
+                            <img src="img/portfolio/1.png">
+                        </div>
+                        <div class="slide">
+                            <img src="img/portfolio/2.png">
+                        </div>
+                    </div>
+                </div>
+                <div class="item gallery_product filter styling" >
+                    <a href="#gallery4" class="open-gallery-link">
+                        <img src="img/portfolio/4.png">
+                    </a>
+                    <div id="gallery4" class="mfp-hide">
+
+                        <div class="slide">
+                            <img src="img/portfolio/1.png">
+                        </div>
+                        <div class="slide">
+                            <img src="img/portfolio/2.png">
+                        </div>
+                    </div>
+                </div>
+                <div class="item gallery_product filter styling" >
+                    <a href="#gallery5" class="open-gallery-link">
+                        <img src="img/portfolio/5.png">
+                    </a>
+                    <div id="gallery5" class="mfp-hide">
+                        <div class="slide">
+                            <img src="img/portfolio/1.png">
+                        </div>
+                        <div class="slide">
+                            <img src="img/portfolio/2.png">
+                        </div>
+                    </div>
+                </div>
+                <div class="item gallery_product filter styling">
+                    <a href="#gallery6" class="open-gallery-link">
+                        <img src="img/portfolio/6.png">
+                    </a>
+                    <div id="gallery6" class="mfp-hide">
+
+                        <div class="slide">
+                            <img src="img/portfolio/1.png">
+                        </div>
+                        <div class="slide">
+                            <img src="img/portfolio/2.png">
+                        </div>
+                    </div>
+                </div>
+                <div class="item gallery_product filter styling">
+                    <a href="#gallery7" class="open-gallery-link">
+                        <img src="img/portfolio/7.png">
+                    </a>
+                    <div id="gallery7" class="mfp-hide">
+                        <div class="slide">
+                            <img src="img/portfolio/1.png">
+                        </div>
+                        <div class="slide">
+                            <img src="img/portfolio/2.png">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="about" id="2">
+        <div class="content">
+            <div class="title  wow fadeIn" data-wow-duration="1s">
+                <h3 >about</h3>
+                <span class="bor"></span>
+            </div>
+            <div class="about-box1  wow fadeIn" data-wow-duration="1s">
+                <p>
+                    <span class="big">M</span>orem Ipsum is simply dummy text of the printing and
+                    typesetting industry. Lorem Ipsum has been the industry's standard
+                    dummy text ever since the 1500s, when an unknown printer took a
+                    galley of type and scrambled it to make a type specimen book.
+                    It has survived not only five centuries, but also the leap into
+                    electronic typesetting, remaining essentially unchang.
+                </p>
+            </div>
+            <div class="about-box1  wow fadeIn" data-wow-duration="1s">
+                <p>
+                    <span class="big">S</span>orem Ipsum is simply dummy text of the printing and
+                    typesetting industry. Lorem Ipsum has been the industry's standard
+                    dummy text ever since the 1500s, when an unknown printer took a
+                    galley of type and scrambled it to make a type specimen book.
+                    It has survived not only five centuries, but also the leap into
+                    electronic typesetting, remaining essentially unchang.
+                </p>
+            </div>
+        </div>
+    </section>
+    <section class="parallax">
+        <div class="parallax-one" style="background-image: url('img/parallax.jpg');"></div>
+    </section>
+    <section class="contact" id="3">
+        <div class="contact-wrapp content">
+            <div class="contact-list">
+                <div class="rotate-text inline">
+                    <p class="wow fadeIn" data-wow-duration="1s">get in touch</p>
+                </div>
+                <div class="title">
+                    <h3 class="wow fadeIn" data-wow-duration="1s">contact</h3>
+                    <span class="bor"></span>
+                </div>
+                <div class="marg-list">
+                    <div class="form">
+                        <div class="input-box name wow fadeIn" data-wow-duration="1s">
+                            <input type="text" class="effect-1" placeholder="name">
+                            <span class="focus-border"></span>
+                        </div>
+
+                        <div class="input-box email wow fadeIn" data-wow-duration="1.5s">
+                            <input type="email" class="effect-1" placeholder="email">
+
+                            <span class="focus-border"></span>
+                        </div>
+
+                        <div class="input-box message wow fadeIn" data-wow-duration="1.8s">
+                            <textarea class="effect-1" placeholder="message"></textarea>
+                            <span class="focus-border"></span>
+                        </div>
+
+                        <div class="text-right wow fadeIn button-effect" data-wow-duration="1s">
+                            <button class="effect effect-3">submit</button>
+                        </div>
+                    </div>
+                    <div class="bottom-footer">
+                        <div class="box">
+                            <div class="left-footer wow fadeIn" data-wow-duration="1s">
+                                <ul class="wow fadeIn" data-wow-duration="1s">
+                                    <li class="button-1">
+                                        <div class="eff-1"></div>
+                                        <a href="#"><i class="fab fa-instagram"></i></a>
+                                    </li>
+                                    <li class="button-1">
+                                        <div class="eff-1"></div>
+                                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                                    </li>
+                                    <li class="button-1">
+                                        <div class="eff-1"></div>
+                                        <a href="#"><i class="fab fa-google-plus-g"></i></a>
+                                    </li>
+                                    <li class="button-1">
+                                        <div class="eff-1"></div>
+                                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                                    </li>
+                                </ul>
+                                <p>94madonna@gmail.com</p>
+                                <p>2018 Madonna Harutyunyan. All rights reserved</p>
+                            </div>
+                        </div>
+
+                        <div class="box">
+                            <div class="right-footer wow fadeIn" data-wow-duration="1s">
+                                <div class="insta">
+                                    <p>@madonnaharutyunyan</p>
+                                </div>
+
+                                <div class="w50 frt">
+                                    <a target="_blank" href="//www.instagram.com/madonnaharutyunyan/">
+                                        <img src="img/insta/1.jpg"/>
+                                    </a>
+                                </div>
+                                <div class="w50">
+
+                                    <ul class="insta-img">
+                                        <li><a target="_blank" href="//www.instagram.com/madonnaharutyunyan/">
+                                            <img src="img/insta/2.jpg" alt=""/></a>
+                                        </li>
+                                        <li><a target="_blank" href="//www.instagram.com/madonnaharutyunyan/">
+                                            <img src="img/insta/3.jpg" alt=""/></a>
+                                        </li>
+                                        <li><a target="_blank" href="//www.instagram.com/madonnaharutyunyan/">
+                                            <img src="img/insta/4.jpg" alt=""/></a>
+                                        </li>
+                                        <li><a target="_blank" href="//www.instagram.com/madonnaharutyunyan/">
+                                            <img src="img/insta/5.jpg" alt=""/></a>
+                                        </li>
+                                        <div class="clearfix"></div>
+                                    </ul>
+                                </div>
+                                <div class="clearfix"></div>
+                            </div>
+                        </div>
+                        <div class="clearfix"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</div>
+
+
+
+<script src="libs/jquery-3.3.1.slim.min.js"></script>
+<script src="libs/jquery-2.2.4.min.js"></script>
+<script src="libs/popper.min.js"></script>
+<script src="libs/bootstrap.min.js"></script>
+<script src="js/libs.min.js"></script>
+<script src="js/common.js"></script>
+
+</body>
+</html>
+
